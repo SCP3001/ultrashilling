@@ -1,0 +1,342 @@
+body{
+    margin:0px;
+    font-family: VCR;
+    background-color: rgb(110, 109, 109);
+}
+.top{
+    width:100%;
+    height:150px;
+    margin-right: 0px;
+}
+.top .title{
+    float: left;
+    margin:20px 0 0 20px;
+    font-size:60px;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    color: red;
+}
+.top-menu{
+    float: left;
+    margin-left:20px;
+    margin-top:10px ;
+    font-size: 30px;
+}
+.top-menu a{
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+.top-menu a:hover{
+    color: rgb(255, 5, 5);
+}
+.buttons{
+    width:100%;
+}
+.buttons a{
+    font-size:30px;
+    background-color:rgba(90, 84, 84, 0.4);
+    text-shadow:2px 2px rgb(0, 0, 0);
+    float: right;
+    border:3px solid black;
+    text-decoration:none;
+}
+.buttons>div{
+    margin: 10px;
+    float: right;
+}
+.button-row1 img{
+    width:55px;
+    height:55px;
+    margin-right:5px;
+}
+.button-row2 img{
+    width:50px;
+    height:55px;
+    margin-right:10px;
+}
+.button-row3 img{
+    width:55px;
+    height:40px;
+    margin-top:9px;
+    margin-right:7px;
+}
+.Twitter{
+    color:#00acee;
+    padding:10px 20px 10px 20px;
+}
+.Twitter:hover{
+    background-color: gray;
+}
+.Discord{
+    color:#7289da;
+    padding:10px 22px 10px 21px;
+}
+.Discord:hover{
+    background-color: gray;
+}
+.Youtube{
+    color:red;
+    padding:10px 22px 10px 22px;
+}
+.Youtube:hover{
+    background-color: gray;
+}
+.head{
+    width:75%;
+    height:230px;
+    float:left;
+    padding-left:5%;
+    border-bottom:3px solid white;
+    background-color:maroon;
+}
+.top-img{
+    width:200px ;
+    float: left;
+}
+.top-img img{
+    width:180px;
+    height:180px;
+    border-radius:40%;
+    border:black solid 5px;
+    margin-top:15px;
+    float:left;
+    margin-left:15px;
+}
+.left{
+    width:calc(80% - 200px);
+    height:100%;
+    float: left;
+    font-size:20px;
+    padding:50px 100px 0px 100px;
+}
+.video video{
+    float:left;
+    border-right:2px solid white;
+}
+.tag{
+    overflow: hidden;
+    width:100%;
+    height:100%;
+}
+.tags{
+    font-size:30px;
+    font-weight:600;
+    color:red;
+    text-shadow:2px 2px black, -2px 2px black, 2px -2px black, -2px -2px black;
+}
+.tag-buttons{
+    background-color:red;
+    padding:5px 10px 5px 10px;
+    margin-left:5px;
+    color: white;
+    text-shadow:1px 1px black, -1px 1px black, 1px -1px black, -1px -1px black;
+    border:2px solid black;
+
+}
+.img-header{
+    overflow: hidden;
+    font-size:18px;
+    font-weight:400;
+    height:405px;
+}
+.img-header img{
+    width:100%;
+    border-bottom:2px solid white;
+}
+.img-header .dif-font{
+    font-weight: 700;
+    color:white;
+    margin-top:15px;
+    text-shadow:2px 2px black, -2px 2px black, 2px -2px black, -2px -2px black;
+}
+.img-header a{
+    margin-left:20px;
+    margin-right:20px;
+    float: left;
+}
+.left .background{
+    width:100%;
+    height:100%;
+    background-color: rgba(28, 28, 28, 0.5);
+    border:2px solid white;
+    box-shadow:6px 6px black;
+}
+.buy{
+    width:100%;
+    background-color:rgb(77, 77, 77);
+    font-size: 30px;
+    overflow:hidden;
+    height:100px;
+    border:2px solid white;
+    box-shadow:6px 6px black;
+    margin-top:20px;
+}
+.buy .buy-text{
+    margin:35px 10px 0px 20px;
+    float: left;
+    font-weight: 600;
+    color: red;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    letter-spacing:2px;
+}
+.buy .buy-button{
+    float: right;
+    background-color: black;
+    color: aliceblue;
+    padding:10px 5px 10px 20px;
+    margin: 25px 30px 0 0;
+}
+.actual-button{
+    background-color:red;
+    text-decoration:none;
+    color: black;
+    margin-left:15px;
+    padding:5px 10px 5px 10px;
+}
+.actual-button:hover{
+    color:white;
+}
+.right{
+    background-color:maroon;
+    width:20%;
+    height:230px;
+    float:right;
+    border-bottom:3px solid white;
+}
+.right .links{
+    width:100%;
+    height:1000px;
+    float: right;
+}
+.right .links .info{
+    background-color:rgb(77, 77, 77);
+    width:calc(100%-80px);
+    height:100%;
+    margin:50px 30px 20px 30px;
+    font-size:22px;
+    font-weight: 600;
+    text-shadow:1px 1px black, -1px 1px black, 1px -1px black, -1px -1px black;
+    color:white;
+    word-spacing:5px;
+    padding:10px;
+    border:2px solid white;
+    box-shadow:6px 6px black;
+}
+.info .release{
+    color:red;
+    font-size:28px;
+    text-shadow:2px 2px black, -2px -2px black,2px -2px black,-2px 2px black;
+}
+.info ul li{
+    margin-top:15px;
+}
+.info ul li a{
+    text-decoration: none;
+    color: black;
+    text-shadow:1px 1px white, -1px 1px white, 1px -1px white, -1px -1px white;
+}
+.info ul li a:hover{
+    color:red;
+    text-shadow:1px 1px black, -1px 1px black, 1px -1px black, -1px -1px black;
+}
+.description{
+    padding:30px 90px 90px 90px;
+    font-size:25px;
+    font-weight:700 ;
+}
+.description img{
+    width:calc(100%);
+    margin:30px 0px 30px 0px;
+}
+.about{
+    font-size:40px;
+    color:red;
+    text-shadow:-2px -2px black, 2px -2px black, -2px 2px black, 2px 2px black;
+}
+.about-line{
+    width:calc(100%-60px);
+    height:5px;
+    background-color:black;
+    margin-top:20px;
+}
+.about-game{
+    font-size:25px;
+    font-weight:700;
+}
+.bottom{
+    border-top:2px solid white;
+    width:100%;
+    float: left;
+    text-align: center;
+    font-size:45px;
+    padding:20px 0px 20px 0px;
+    color:red;
+    background-color:rgb(77, 77, 77);
+    margin-top:20px;
+    text-shadow:2px 2px black, -2px 2px black, 2px -2px black, -2px -2px black;
+}
+.system .minimum{
+    width:50%;
+    float:left;
+    height:100%;
+    margin-top:20px;
+}
+.min-rel{
+    color:white;
+    font-size:30px;
+    text-shadow:2px 2px black, -2px 2px black, 2px -2px black, -2px -2px black;
+}
+.smth{
+    color: white;
+    text-shadow:2px 2px black, -2px 2px black, 2px -2px black, -2px -2px black;
+}
+.system .max{
+    width:50%;
+    height:100%;
+    float: left;
+    margin-top:20px;
+}
+@font-face{
+    font-family:VCR;
+    src: url(VCR.ttf);
+}
+@font-face{
+    font-family:Pixel;
+    src:url(rainyhearts.ttf);
+}
+@media only screen and (max-width:915px){
+    .left{
+        width:100%;
+    }
+    .right{
+        display:none;
+    }
+    .head{
+        width:100%;
+    }
+    .middle{
+        width:100%;
+    }
+}
+@media only screen and (max-width:1400px){
+    .top .title{
+        font-size:4vh;
+    }
+    .buttons input{
+        font-size:15px;
+    }
+    .top-img img{
+        width:140px;
+        height:140px;
+    }
+    .top{
+        height:120px;
+    }
+    .head{
+        height:180px;
+    }
+    .top-menu{
+        font-size:20px;
+        margin-left:5px ;
+    }
+}
